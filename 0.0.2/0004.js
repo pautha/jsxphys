@@ -88,11 +88,37 @@ ANSWER: D
 
 /*
 // Test #3
+Terdapat titik-titik $a$ dan $b$ yang terhubung oleh dua resistor $R_1$ dan $R_2$ secara paralel. Beda potensial $V_{ab} = V_a - V_b = 9 \ {\rm V}$ dengan $R_1 = 3 R_2$. Pernyataan yang salah adalah<br /><br />
 
+A. $I_1 + I_2 = 12 \ {\rm A}$ bila $R_2 = 1 \ \Omega$ <br />
+B. $I_1 + I_2 = 6 \ {\rm A}$ bila $R_2 = 2 \ \Omega$ <br />
+C. $I_1 + I_2 = 4 \ {\rm A}$ bila $R_2 = 3 \ \Omega$ <br />
+D. $I_1 + I_2 = 3 \ {\rm A}$ bila $R_2 = 4 \ \Omega$ <br />
+E. $I_1 + I_2 = 1.5 \ {\rm A}$ bila $R_2 = 6 \ \Omega$ <br /><br />
+
+ANSWER: E
 */
 
 /*
 // Test #4
+Terdapat titik-titik $a$ dan $b$ yang terhubung oleh dua resistor $R_1$ dan $R_2$ secara paralel. Beda potensial $V_{ab} = V_a - V_b = 9 \ {\rm V}$ dengan $R_1 = 3 R_2$. Pernyataan yang salah adalah<br /><br />
 
+A. $I_2 - I_1 = 9 \ {\rm A}$ bila $R_2 = 1 \ \Omega$ <br />
+B. $I_2 - I_1 = 3 \ {\rm A}$ bila $R_2 = 2 \ \Omega$ <br />
+C. $I_2 - I_1 = 2 \ {\rm A}$ bila $R_2 = 3 \ \Omega$ <br />
+D. $I_2 - I_1 = 1.5 \ {\rm A}$ bila $R_2 = 4 \ \Omega$ <br />
+E. $I_2 - I_1 = 1 \ {\rm A}$ bila $R_2 = 6 \ \Omega$ <br /><br />
+
+ANSWER: A
+*/
+
+/*
+// Test #5
+Terdapat tiga buah titik $a$, $b$, dan $c$. Titik $a$ dan $b$ terhubung hanya ke $R_1 = 1.2 \ \Omega$, sedangkan titik $b$ dan $c$ terhubung ke dua buah resitor $R_2 = 1 \ \Omega$ dan $R_3 = 4 \ \Omega$. Daya yang terdisipasi pada $R_2$ adalah $P_2 = 0.64 \ {\rm W}$. Beda potensial $V_{ac} = V_a - V_c$ adalah ... V.  {=2 =2,0 =2.0}
+*/
+
+/*
+// Test #5
+Terdapat tiga buah titik $a$, $b$, dan $c$. Titik $a$ dan $b$ terhubung ke dua buah resitor $R_1 = 1 \ \Omega$ dan $R_2 = 4 \ \Omega$, sedangkan titik $b$ dan $c$ hanya terhubung hanya ke $R_3 = 1.2 \ \Omega$. Daya yang terdisipasi pada $R_2$ adalah $P_2 = 0.16 \ {\rm W}$. Daya yang terdisipasi pada $R_3$ adalah $P_3$. Nilai $P_3$ adalah .. W. {=1.2 =1,2}
 */
 
