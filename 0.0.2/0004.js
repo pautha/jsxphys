@@ -7,6 +7,8 @@
 	20200423
 	1657 Derive it from 4.
 	1745 Ok with ESC key for updating.
+	2011 Add table from 003.
+	2012 It works but out of DIV area. To-Do DIV with scrollbar?
 	
 	References
 	1. https://www.w3schools.com/jsref/event_onkeypress.asp
@@ -49,7 +51,9 @@ function main() {
 function display(e) {
 	if(e.key == "Escape") {
 		console.log(e.key);
-		divOut.innerHTML = taIn.value;
+		var content = parseTable(taIn.value);
+		content = parseReference(content);
+		divOut.innerHTML = content;
 		MathJax.Hub.Queue(["Typeset", MathJax.Hub, 'output']);
 	}
 }
