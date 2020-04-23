@@ -73,7 +73,6 @@ Coba diterapkan bila terdapat dua tabel, seperti Tabel REF ta:mass-density dan R
 	p.innerHTML = content;
 	document.body.append(p);
 	
-	
 	var can = document.createElement("canvas");
 	document.body.append(can);
 	
