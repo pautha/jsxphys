@@ -56,10 +56,43 @@ function display(e) {
 
 
 /*
-Terdapat titik-titik $a$, $b$, $c$, $d$, dan $e$. Antara dua titik berurutan terdapat sebuah resistor, misalnya antara titik $a$ dan $b$ terdapat $R_{ab}$. Beda potensial $V_a$ - $V_b$ = 5 V dengan $R_{ab}$ = 2 $\Omega$, $R_{bc}$ = 1 $\Omega$, $R_{cd}$ = 1 $\Omega$, dan $R_{de}$ = 1 $\Omega$. Tentukanlah $V_{bd} = V_b - V_d$. <br /> <br />
+// Test #1
+Terdapat titik-titik $a$, $b$, $c$, $d$, dan $e$. Antara dua titik berurutan terdapat hanya sebuah resistor, misalnya antara titik $a$ dan $b$ terdapat $R_{ab}$. Beda potensial $V_{ae} = V_a - V_e = 5  \ {\rm V}$ dengan $R_{ab} = 1 \ \Omega$, $R_{bc} = 1 \ \Omega$, $R_{cd} = 2 \ \Omega$, dan $R_{de} = 1 \ \Omega$. Arus yang mengalir $I$ dan beda potensial $V_{bd} = V_b - V_d$ adalah <br /> <br />
 
-Dengan menggunakan hukum I Kirchhof dapat dituliskan bahwa $V_{ab} - I R_{ab} -I R_{bc} - I R_{ce} - I R_{de} = 0$, sehingga dapat diperoleh bahwa $I = 1$ A. <br /> <br />
+A. 0.5 A, 3 V.<br />
+B. 1 A, 2 V.<br />
+C. 0.5 A, 2 V.<br />
+D. 1 A, 2 V.<br />
+E. 1 A, 3 V.<br /><br />
 
-Selanjutnya $V_{bd} = $
+ANSWER: E
+
+Pembahasan:
+Dengan menggunakan hukum I Kirchhof dapat dituliskan bahwa $V_{ae} - I R_{ab} -I R_{bc} - I R_{cd} - I R_{de} = 0$, sehingga dapat diperoleh bahwa $I = 1 \ {\rm A}$. <br /> <br />
+
+Selanjutnya $V_{bd} = I (R_{bc} + R_{cd}) = 3 \ {\rm V}$.
+*/
+
+/*
+// Test #2
+Terdapat titik-titik $a$, $b$, $c$, $d$, dan $e$. Antara dua titik berurutan terdapat hanya sebuah resistor, misalnya antara titik $a$ dan $b$ terdapat $R_{ab}$. Beda potensial $V_{ab} = V_a - V_b = 2  \ {\rm V}$ dengan $R_{ab} = 1 \ \Omega$, $R_{bc} = 1 \ \Omega$, $R_{cd} = 2 \ \Omega$, dan $R_{de} = 1 \ \Omega$. Arus yang mengalir $I$ dan beda potensial $V_{ce} = V_c - V_e$ adalah <br /> <br />
+
+A. 0.5 A, 3 V.<br />
+B. 1 A, 3 V.<br />
+C. 1 A, 6 V.<br />
+D. 2 A, 6 V.<br />
+E. 3 A, 3 V.<br /><br />
+
+ANSWER: D
+*/
+
+/*
+// Test #3
+
+*/
+
+/*
+// Test #4
+
 */
 
