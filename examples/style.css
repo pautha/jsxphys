@@ -1,0 +1,40 @@
+/*
+	style.css
+	First style for PhysJax project
+	
+	Sparisoma Viridi | https://github.com/dudung
+	
+	20200422
+	0928 Move this from index.html file.
+	
+	
+	References
+	1. Chris Coyier, "Comments in CSS", 24 May 2016,
+	   url https://css-tricks.com/snippets/css/comments-in-css
+		 [20200422].
+*/
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: blue;
+}
+
+a:active {
+	color: blue;
+}
+
+a:hover {
+	color: blue;
+}
+
+body {
+	padding: 10px 20px 10px 20px;
+}
