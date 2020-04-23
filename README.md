@@ -7,8 +7,8 @@ After reading some questions and answers [1-4], it triggers again a desire from 
 Right now the social distancing and limitation policy in Bandung due to coronavirus pandemic [8] and other cities,  work from home (WFH) and study from home (SFH) require a lot of data transaction through internet which also be an additional cost to the students [9], since the use of online meeting application with sound and video. It would be better when only plain text is transmitted and then the rich content is created in user browser, this will save user bandwidth.
 
 ## Version
-0.0.1 Table with reference without style [20200418]
-0.0.2 Chart from Chart.js with JS but not yet with markup [20200423]
+0.0.1 Table with reference without style [20200418] <br />
+0.0.2 Chart from Chart.js with JS but not yet with markup [20200423] <br />
 
 ## Limitation
 The jsxPhys will remain a client-side application to support users without complexity in installation as in a server-side application.
