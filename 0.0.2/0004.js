@@ -56,11 +56,9 @@ function display(e) {
 
 
 /*
-Terdapat titik-titik $a$, $b$, $c$, $d$, dan $e$. Antara dua titik berurutan terdapat sebuah resistor, misalnya antara titik $a$ dan $b$ terdapat $R_{ab}$. Beda potensial $V_a$ - $V_b$ = 5 V dengan $R_{ab}$ = 2 $\Omega$, $R_{bc}$ = 1 $\Omega$, $R_{cd}$ = 1 $\Omega$, dan $R_{de}$ = 1 $\Omega$. Tentukanlah $V_{bd} = V_b - V_d$. <br />
+Terdapat titik-titik $a$, $b$, $c$, $d$, dan $e$. Antara dua titik berurutan terdapat sebuah resistor, misalnya antara titik $a$ dan $b$ terdapat $R_{ab}$. Beda potensial $V_a$ - $V_b$ = 5 V dengan $R_{ab}$ = 2 $\Omega$, $R_{bc}$ = 1 $\Omega$, $R_{cd}$ = 1 $\Omega$, dan $R_{de}$ = 1 $\Omega$. Tentukanlah $V_{bd} = V_b - V_d$. <br /> <br />
 
-<br />
-
-Dengan menggunakan hukum I Kirchhof dapat dituliskan bahwa $V_{ab} - I R_{ab} -I R_{bc} - I R_{ce} - I R_{de} = 0$, sehingga dapat diperoleh bahwa $I = 1$ A. <br />
+Dengan menggunakan hukum I Kirchhof dapat dituliskan bahwa $V_{ab} - I R_{ab} -I R_{bc} - I R_{ce} - I R_{de} = 0$, sehingga dapat diperoleh bahwa $I = 1$ A. <br /> <br />
 
 Selanjutnya $V_{bd} = $
 */
