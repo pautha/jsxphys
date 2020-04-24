@@ -12,6 +12,7 @@
 	20200424
 	1003 Try to fix problem while refresh MathJax.
 	1021 Fix but with not fully understanding.
+	1022 Table numbering is still a problem.
 	
 	References
 	1. https://www.w3schools.com/jsref/event_onkeypress.asp
