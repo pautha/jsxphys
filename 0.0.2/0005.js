@@ -16,6 +16,7 @@
 	1241 Document that [3] works but [4] doesn not. Version?
 	1251 Use resetNumbering() and works for now.
 	1252 To-Do: Object to encapsulate function, e.g. jsxPhys.
+	1255 Solve scroll in vertical direction for div.
 	
 	References
 	1. https://www.w3schools.com/jsref/event_onkeypress.asp
@@ -44,6 +45,7 @@ function main() {
 	//divOut.style.float = "left";
 	divOut.id = "output";
 	divOut.style.padding = "10px";
+	divOut.style.overflowY = "scroll";
 
 	taIn.style.width = (parseInt(divOut.style.width) - 4) + "px";
 	taIn.style.height = "200px";
