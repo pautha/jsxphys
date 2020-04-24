@@ -13,10 +13,13 @@
 	1003 Try to fix problem while refresh MathJax.
 	1021 Fix but with not fully understanding.
 	1022 Table numbering is still a problem.
+	1241 Document that [3] works but [4] doesn not. Version?
 	
 	References
 	1. https://www.w3schools.com/jsref/event_onkeypress.asp
 	2. https://stackoverflow.com/a/32239474/9475509
+	3. https://docs.mathjax.org/en/v2.7-latest/advanced/typeset.html#reset-automatic-equation-numbering
+	4. http://docs.mathjax.org/en/latest/web/typeset.html#tex-reset
 */
 
 
