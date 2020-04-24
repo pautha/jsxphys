@@ -14,6 +14,8 @@
 	1021 Fix but with not fully understanding.
 	1022 Table numbering is still a problem.
 	1241 Document that [3] works but [4] doesn not. Version?
+	1251 Use resetNumbering() and works for now.
+	1252 To-Do: Object to encapsulate function, e.g. jsxPhys.
 	
 	References
 	1. https://www.w3schools.com/jsref/event_onkeypress.asp
@@ -58,6 +60,8 @@ function main() {
 function display(e) {
 	if(e.key == "Escape") {
 		console.log(e.key);
+		
+		resetNumbering();
 		var content = parseTable(taIn.value);
 		content = parseReference(content);
 		divOut.innerHTML = content;

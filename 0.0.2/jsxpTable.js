@@ -9,9 +9,13 @@
 	0934 Derive it from 0 and 1.
 	20200423
 	1627 Rename it from pjxTable to jsxpTable.
+	20200424
+	1245 Reset Table refs with resetNumbering() function.
+	1247 Face the similar problem with MathJax [1].
+	1251 It works but not sure.
 	
 	References
-	1. 
+	1. https://docs.mathjax.org/en/v2.7-latest/advanced/typeset.html#reset-automatic-equation-numbering
 */
 
 
@@ -19,6 +23,13 @@
 var tab_num = 0;
 var tab_prefix = "jsxp-tab-";
 var anchors = {};
+
+
+// Reset numbering
+function resetNumbering() {
+	anchor = {};
+	tab_num = 0;
+}
 
 
 // Parse table
