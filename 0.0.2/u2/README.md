@@ -62,7 +62,9 @@ Gunakan [editor](https://rawcdn.githack.com/dudung/jsxphys/4220729be109df8b94729
 ### Soal 2
 Gunakan [editor](https://rawcdn.githack.com/dudung/jsxphys/4220729be109df8b94729ca4605562caa6d7596b/0.0.2/editor.html) untuk melihat tampilan soal sebenarnya.
 
-	Dengan menggunakan sistem bandul dalam soal sebelumnya dapat pula dipilih sistem koordinat polar $r$ dan $\theta$ yang dalam hal ini akan terpenuhi $\dot{r} = 0$ karena tali tidak mulur atau $r = l$.
+	Dengan menggunakan sistem bandul dalam soal sebelumnya dapat pula dipilih
+	sistem koordinat polar $r$ dan $\theta$ yang dalam hal ini akan terpenuhi
+	$\dot{r} = 0$ karena tali tidak mulur atau $r = l$.
 	<br /><br />
 	
 	a. Perolehlah persamaan diferensial pada arah $\theta$
