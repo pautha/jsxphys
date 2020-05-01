@@ -84,4 +84,6 @@ Gunakan [editor](https://rawcdn.githack.com/dudung/jsxphys/4220729be109df8b94729
 	c. Carilah solusi numerik dengan algoritma Euler untuk sembarang nilai $\theta$.
 	<br /><br />
 	
-	d. Buatlah program sederhana di [http://cpp.sh/](http://cpp.sh/) untuk menghasilkan angka-angka dari keduanya untuk sudut kecil dan sudut besar. Program harus siap untuk dijalankan.
+	d. Buatlah program sederhana di http://cpp.sh/ untuk menghasilkan angka-angka
+	dari keduanya untuk sudut kecil dan sudut besar. Program harus siap untuk
+	dijalankan.
