@@ -24,9 +24,8 @@ Mata kuliah Fisika komputasi berkode FI3201 untuk kelas 01 akan melangsungkan U2
 ## Soal
 Terdapat lima buat soal yang akan dikerjakan secara per kolompok dan pemberian soal diberikan berangsur-angsur.
 
-Gunakan [editor](https://rawcdn.githack.com/dudung/jsxphys/4220729be109df8b94729ca4605562caa6d7596b/0.0.2/editor.html) untuk melihat tampilan soal sebenarnya.
-
 ### Soal 1
+Gunakan [editor](https://rawcdn.githack.com/dudung/jsxphys/4220729be109df8b94729ca4605562caa6d7596b/0.0.2/editor.html) untuk melihat tampilan soal sebenarnya.
 
 	Terdapat sistem bandul yang terdiri dari titik pusat koordinat $O(0, 0)$, tali tak bermassa dengan panjang $l$, dan mata bandul berbentuk bola dengan diameter $D$ dan massa $m$. Sumbu $x$ berarah horizontal ke kanan dan sumbu $y$ berarah vertikal ke atas, dengan keduanya berada pada bidang gambar layar monitor. Percepatan gravitasi dalam sistem ini adalah
 
@@ -60,3 +59,29 @@ Gunakan [editor](https://rawcdn.githack.com/dudung/jsxphys/4220729be109df8b94729
 
 	d. Untuk bandul dengan simpangan kecil dan tanpa gaya gesek udara, bagaimanakah bentuk Persamaan \eqref{eqn:nlode-x} dan \eqref{eqn:nlode-y}? Jelaskan maksud suku-sukunya.
 
+### Soal 2
+Gunakan [editor](https://rawcdn.githack.com/dudung/jsxphys/4220729be109df8b94729ca4605562caa6d7596b/0.0.2/editor.html) untuk melihat tampilan soal sebenarnya.
+
+	Dengan menggunakan sistem bandul dalam soal sebelumnya dapat pula dipilih sistem koordinat polar $r$ dan $\theta$ yang dalam hal ini akan terpenuhi $\dot{r} = 0$ karena tali tidak mulur atau $r = l$.
+	<br /><br />
+	
+	a. Perolehlah persamaan diferensial pada arah $\theta$
+	\begin{equation}
+	\label{eqn:nlode-theta}
+	\ddot{\theta} + \left( \frac{g}{l} \right) \sin \theta = 0
+	\end{equation}
+	
+	dan $r$
+	
+	\begin{equation}
+	\label{eqn:nlode-r}
+	\dot{\theta}^2 + \left( \frac{g}{l} \right) \cos \theta = \left( \frac{T}{lm} \right).
+	\end{equation}
+	
+	b. Carilah solusi analitik $\theta$ dan $T$ untuk nilai $\theta$ kecil.
+	<br /><br />
+	
+	c. Carilah solusi numerik dengan algoritma Euler untuk sembarang nilai $\theta$.
+	<br /><br />
+	
+	d. Buatlah program sederhana di [http://cpp.sh/](http://cpp.sh/) untuk menghasilkan angka-angka dari keduanya untuk sudut kecil dan sudut besar. Program harus siap untuk dijalankan.
