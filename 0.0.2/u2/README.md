@@ -2,6 +2,20 @@
 Mata kuliah Fisika komputasi berkode FI3201 untuk kelas 01 akan melangsungkan U2 dengan memanfaatkan format Markdown dalam penyampaian jawabannya dan diarsipan di [jsxPhys versi 0.02](https://github.com/dudung/jsxphys/tree/master/0.0.2).
 
 
+## Persiapan Ujian Kelompok
+
+1 Pelajari Markdown markup language. Jawaban U2 akan dituliskan dalam format Markdown https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+2 Pelajari C++ online compiler untuk membuat kode yang akan disubmit, misalnya C++ hhell http://cpp.sh/
+
+3 Pelajari fomat LaTeX untuk menulis persamaan matematika https://davidhamann.de/2017/06/12/latex-cheat-sheet/
+
+4 Latih format LaTeX tersebut dengan penyunting daring, misalnya http://tiny.cc/fi3201-01-u2
+
+5 Pelajari prinsip kerja ANN pada https://playground.tensorflow.org/ dengan melakukan berbagai variasi parameter
+
+6 Pelajari online chart seperti https://chart-studio.plotly.com/create/#/ sehingga dapat share hasilnya seperti https://plotly.com/~Sparisoma/3/#/ untuk jawaban U2.
+
 ## Soal
 Terdapat lima buat soal yang akan dikerjakan secara per kolompok dan pemberian soal diberikan berangsur-angsur.
 
@@ -39,7 +53,4 @@ Gunakan [editor](https://rawcdn.githack.com/dudung/jsxphys/4220729be109df8b94729
 	<br /><br />
 
 	d. Untuk bandul dengan simpangan kecil dan tanpa gaya gesek udara, bagaimanakah bentuk Persamaan \eqref{eqn:nlode-x} dan \eqref{eqn:nlode-y}? Jelaskan maksud suku-sukunya.
-
-
-
 
