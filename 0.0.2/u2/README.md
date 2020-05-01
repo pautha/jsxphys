@@ -22,7 +22,7 @@ Mata kuliah Fisika komputasi berkode FI3201 untuk kelas 01 akan melangsungkan U2
 
 
 ## Soal
-Terdapat lima buat soal yang akan dikerjakan secara per kolompok dan pemberian soal diberikan berangsur-angsur.
+Terdapat lima buah soal yang akan dikerjakan secara per kolompok dan pemberian soal diberikan berangsur-angsur.
 
 ### Soal 1
 Gunakan [editor](https://rawcdn.githack.com/dudung/jsxphys/4220729be109df8b94729ca4605562caa6d7596b/0.0.2/editor.html) untuk melihat tampilan soal sebenarnya bila diperlukan.
